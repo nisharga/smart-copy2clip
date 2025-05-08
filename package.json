@@ -1,0 +1,35 @@
+{
+  "name": "smart-copy2clip",
+  "version": "1.1.6",
+  "description": "A simple React button component to copy a string or number to clipboard.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "keywords": [
+    "clipboard",
+    "copy",
+    "react",
+    "button",
+    "typescript"
+  ],
+  "author": "Nisharga Kabir",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "tsup": "^7.0.0",
+    "typescript": "^5.0.0"
+  }
+}
