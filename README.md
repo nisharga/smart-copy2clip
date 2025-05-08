@@ -1,0 +1,1 @@
+# smart-copy2clip
