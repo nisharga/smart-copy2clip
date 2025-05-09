@@ -1,6 +1,6 @@
 {
   "name": "smart-copy2clip",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/nisharga/smart-copy2clip"
@@ -15,6 +15,9 @@
       "require": "./dist/index.js"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts"
   },
